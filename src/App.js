@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Routes } from "react-router-dom";
+// import { styled } from "styletron-react";
+// import { StyleReset } from 'atomize';
+// import "@fortawesome/fontawesome-free/css/all.min.css";
+// import "./assets/styles/tailwind.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import Home from "./Main";
+import Landing from "./components/ProductLandingPage/index.jsx"
+// import Cv from "./components/cv/main"
+// import SpaceX from "./components/Spacex/App"
+// import Landing from "./components/Landing"
+
+// import './main.css';
+
+// const Home = () => (<p>Hola Home</p>)
+
+const App = () => (
+  <Routes>
+    {/* <Home /> */}
+    <Landing />
+    {/* <Route path="/" element={<Home />} /> */}
+  </Routes>
+)
+
+// function App() {
+//   return (
+//     // <div className="App">
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         {/* <Route path="cv" element={<Cv />} />
+//         <Route path="spacex" element={<SpaceX />} />
+//         <Route path="pageReactWithTailwindCSS" element={<Landing />} /> */}
+//       </Routes>
+//     // </div>
+//   )
+// }
 
 export default App;

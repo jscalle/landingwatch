@@ -1,0 +1,121 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+} */
+
+.main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.main-one {
+    width: 60%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 220px;
+}
+
+.main-two {
+    width: 10%;
+    height: 100%;
+}
+
+.main-one .title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.829);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.main-one h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 90px;
+    color: #f2d280;
+}
+
+.main-one .subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffd778;
+}
+
+.main-one button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: whitesmoke;
+    border: 1px solid #f2d280;
+    background: transparent;
+    padding: 7px 25px;
+    border-radius: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.main-one button:hover {
+    background: linear-gradient(#e5d6b2, #e8c573);
+    border: 3px solid #544115;
+    color: black;
+}
+
+.main-one .underline {
+    width: 6%;
+    height: 1px;
+    margin-top: 50px;
+    background-color: #e8c573;
+}
+
+.main-one p {
+    color: rgba(245, 245, 245, 0.803);
+    width: 80%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.subpics {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subpics img {
+    width: 80px;
+    cursor: pointer;
+    margin: 18px 0;
+}
+
+.main-two img {
+    width: 550px;
+    transition: all 0.5s ease;
+}
+
+.subpics img:hover {
+    transform: translateY(-5px);
+}
