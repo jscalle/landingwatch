@@ -47,6 +47,9 @@ const Landing = () => {
 					<img src={require("./Images/13.png")} alt="pic" onClick={() => handleImageUpdate(require('./Images/13.png'))} />
 					<img src={require("./Images/12.png")} alt="pic" onClick={() => handleImageUpdate(require('./Images/12.png'))} />
 					<img src={require("./Images/6.png")} alt="pic" onClick={() => handleImageUpdate(require('./Images/6.png'))} />
+					<img src={require("./Images/13.png")} alt="pic" onClick={() => handleImageUpdate(require('./Images/13.png'))} />
+					<img src={require("./Images/12.png")} alt="pic" onClick={() => handleImageUpdate(require('./Images/12.png'))} />
+					<img src={require("./Images/6.png")} alt="pic" onClick={() => handleImageUpdate(require('./Images/6.png'))} />
 				</div>
 			</div>
 		</div>
